@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.test.MainActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <EditText
+            android:id="@+id/ip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_weight="20"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="172.16.32.180" />
+
+        <Button
+            android:id="@+id/con"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/ip"
+            android:layout_weight="1"
+            android:text= "连接" />
+    </LinearLayout>
+
+    <SurfaceView
+        android:id="@+id/surfaceView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="50dp" />
+<!---
+    <SurfaceView
+        android:id="@+id/surfaceView2"
+        android:layout_width="800dp"
+        android:layout_height="480dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="100dp"
+        android:layout_toRightOf="@+id/surfaceView1" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView3"
+        android:layout_width="800dp"
+        android:layout_height="480dp"
+        android:layout_below="@+id/surfaceView1"
+        android:layout_marginTop="5dp" />
+
+    <SurfaceView
+        android:id="@+id/surfaceView4"
+        android:layout_width="800dp"
+        android:layout_height="480dp"
+        android:layout_below="@+id/surfaceView1"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/surfaceView3" />
+ -->
+
+</RelativeLayout>

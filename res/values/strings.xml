@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Test</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+     <string name="filebrowser_sdfail">Unable to open SD card. Please check it is mounted correctly.</string>
+    <string name="filebrowser_root">Root</string>
+    <string name="filebrowser_title">Select media to play</string>
+    <string name="ml_no_media_dir">No media directory</string>
+    <string name="sortby">Sort by…</string>
+    <string name="sortby_name">Name</string>
+    <string name="sortby_length">Length</string>
+    <string name="searchable_hint">Search…</string>
+    <string name="history">History</string>
+    <plurals name="search_found_results_quantity">
+        <item quantity="one">%d result found</item>
+        <item quantity="other">%d results found</item>
+    </plurals>
+    <string name="show_player">Show player</string>
+    <string name="hide_mini_player">Hide mini-player</string>
+    <string name="play">Play</string>
+    <string name="play_as_audio">Play as audio</string>
+    <string name="play_as_video">Play as video</string>
+    <string name="append">Append</string>
+    <string name="play_all">Play all</string>
+    <string name="append_all">Append all</string>
+    <string name="delete">Delete</string>
+    <string name="set_song">Set as ringtone</string>
+    <string name="info">Information</string>
+    <string name="confirm_delete">Delete the file \'%1$s\' ?</string>
+    <string name="pause">Pause</string>
+    <string name="close">Close</string>
+    <string name="not_show_again">"Don't show this message again."</string>
+    <string name="beta_warning">This is a beta version.\n\nThis version is NOT STABLE!\n\nDo NOT use, unless you know what you are doing.\n\nIt might kill your kitten, destroy your house and start the mayan apocalypse.\nUse it at your own risk.\n\nHave Fun! :)</string>
+    <string name="info_title">VLC Beta</string>
+    <string name="unknown_artist">Unknown Artist</string>
+    <string name="unknown_album">Unknown Album</string>
+    <string name="unknown_genre">Unknown Genre</string>
+    <string name="songs">Songs</string>
+    <plurals name="songs_quantity">
+        <item quantity="one">1 song</item>
+        <item quantity="other">%d songs</item>
+    </plurals>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <plurals name="albums_quantity">
+        <item quantity="one">1 album</item>
+        <item quantity="other">%d albums</item>
+    </plurals>
+    <plurals name="subfolders_quantity">
+        <item quantity="one">1 subfolder</item>
+        <item quantity="other">%d subfolders</item>
+    </plurals>
+    <string name="parent_folder">Up to parent folder</string>
+    <string name="audio">Audio</string>
+    <string name="video">Video</string>
+    <string name="bookmarks">Bookmarks</string>
+    <string name="all_albums">All albums</string>
+    <string name="genres">Genres</string>
+    <string name="playlists">Playlists</string>
+    <string name="title">Title</string>
+    <string name="artist">Artist</string>
+    <string name="album">Album</string>
+    <string name="directory">Directory</string>
+    <string name="directories">Directories</string>
+    <string name="loading">Loading…</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="nomedia">No media files found, please transfer files to your device or adjust your preferences.</string>
+    <string name="mediafiles">Media files</string>
+    <string name="notavailable">not available</string>
+    <string name="nosubdirectory">No subdirectories.</string>
+    <string name="validation">Are you sure?</string>
+    <string name="lock_rotation">Lock screen rotation</string>
+    <string name="locked">Locked</string>
+    <string name="unlocked">Unlocked</string>
+    <string name="surface_best_fit">Best fit</string>
+    <string name="surface_fit_horizontal">Fit horizontal</string>
+    <string name="surface_fit_vertical">Fit vertical</string>
+    <string name="surface_fill">Fill</string>
+    <string name="surface_original">Center</string>
+    <string name="thumbnail">Thumbnail</string>
+    <string name="refresh">Refresh</string>
+    <string name="track_audio">Audio track</string>
+    <string name="track_video">Video track</string>
+    <string name="track_text">Subtitles track</string>
+    <string name="track_unknown">Unknown track</string>
+    <string name="track_codec_info">Codec: %1$s\n</string>
+    <string name="track_language_info">Language: %1$s\n</string>
+    <plurals name="track_channels_info_quantity">
+        <item quantity="one">1 channel\n</item>
+        <item quantity="other">%1$d channels\n</item>
+    </plurals>
+    <string name="track_samplerate_info">Sample rate: %1$d Hz\n</string>
+    <string name="track_resolution_info">Resolution: %1$dx%2$d\n</string>
+    <string name="track_framerate_info">Frame rate: %1$.3f\n</string>
+    <string name="open">Open</string>
+    <string name="open_mrl">Open MRL</string>
+    <string name="open_mrl_dialog_title">Open network stream</string>
+    <string name="open_mrl_dialog_msg">Enter network MRL: e.g. http://, mms:// or rtsp://</string>
+    <string name="media_library">Media library</string>
+    <string name="error_not_compatible">Sorry, your device is currently not supported by this version of VLC for Android™.</string>
+    <string name="error_problem">Sorry, VLC for Android had a problem loading and had to close.</string>
+    <string name="error_message_is">The error message is (please mention this when debugging):\n</string>
+    <string name="playback_speed">Playback speed</string>
+    <string name="time_0" translatable="false">0:00</string>
+    <string name="speed_placeholder" translatable="false">1.00x</string>
+
+    <!-- About -->
+    <string name="app_name_full">VLC for Android™</string>
+    <string name="version">Version</string>
+    <string name="licence">Licence</string>
+    <string name="revision">Revision</string>
+    <string name="about">About</string>
+    <string name="about_text">VLC for Android™ is a port of VLC media player, the popular open source media player. The Android™ version can read most files and network streams.</string>
+    <string name="for_android">for Android™</string>
+    <string name="compiled_by">This version of VLC is compiled by:</string>
+    <string name="vlc_authors">VLC Authors.</string>
+    <string name="about_link" translatable="false">
+        &lt;a href=&quot;http://www.videolan.org/vlc/&quot;&gt;http://www.videolan.org/vlc/&lt;/a&gt;</string>
+    <string name="about_copyright" translatable="false">Copyleft &#169; 1996&#8211;2012 by VideoLAN.\n</string>
+    <string name="authors" translatable="false">Sébastien&#160;Toque, Rafaël&#160;Carré, Jean-Baptiste&#160;Kempf, Edward&#160;Wang, Michael&#160;Merg, Ludovic&#160;Fauvet, Adrien&#160;Maglo, Rémi&#160;Duraffort, Dominique&#160;Martinet, Jean-Philippe&#160;André, Martin&#160;Storsjö, Alexandre&#160;Perraud, Hugo&#160;Beauzée-Luyssen, Felix&#160;Paul&#160;Kühne, John Mooring, Pavol Rusnak, Rohit Yadav, Tanguy Pruvot, Thomas Clavier, Asad Mehmood, Christoph Miebach, David Carré, Garret Kelly, Philipp Dreimann, Walter Heck.</string>
+
+    <!--  Preferences -->
+    <string name="preferences">Preferences</string>
+    <string name="main_prefs_category">Main</string>
+    <string name="privacy_prefs_category">Privacy</string>
+    <string name="clear_history">Clear search history</string>
+    <string name="advanced_prefs_category">Advanced</string>
+    <string name="enable_iomx">Enable hardware accelerated decoding</string>
+    <string name="advanced_debugging">Advanced debugging</string>
+    <string name="quit">Quit application</string>
+    <string name="clear_media_db">Clear media database</string>
+    <string name="media_db_cleared">Media database cleared!</string>
+    <string name="set_locale">Set locale</string>
+    <string name="set_locale_detail">Leave blank to reset</string>
+    <string name="set_locale_popup">Quit and reset VLC for changes to take effect.</string>
+    <string name="detect_headset">Detect headset</string>
+    <string name="detect_headset_detail">Pause on headset removed; resume on headset inserted</string>
+    <string name="enable_wheel_bar">Enable wheel bar</string>
+    <string name="enable_gesture_brightness">Enable brightness gesture</string>
+    <string name="enable_verbose_mode">Verbose</string>
+    <string name="enable_verbose_mode_detail">Increase the verbosity (logcat)</string>
+    <string name="aout">Audio output</string>
+    <string name="aout_audiotrack">AudioTrack (native)</string>
+    <string name="aout_audiotrack_java">AudioTrack (Java)</string>
+    <string name="aout_opensles">OpenSL ES</string>
+    <string name="enable_time_stretching_audio">Enable time-stretching audio</string>
+    <string name="enable_time_stretching_audio_detail">Speed up and slow down audio without changing the pitch (requires a fast device)</string>
+    <string-array name="aouts_froyo">
+        <item>@string/aout_audiotrack_java</item>
+        <item>@string/aout_audiotrack</item>
+    </string-array>
+    <string-array name="aouts">
+        <item>@string/aout_audiotrack_java</item>
+        <item>@string/aout_audiotrack</item>
+        <item>@string/aout_opensles</item>
+    </string-array>
+    
+    <string name="vlc_demo_dir">文件夹</string>
+    <string name="video_player_best_fit">最为合适</string>
+    <string name="video_player_fit_horizontal">水平匹配</string>
+    <string name="video_player_fit_vertical">垂直匹配</string>
+    <string name="video_player_fill">填充</string>
+    <string name="video_player_16x9">16:9</string>
+    <string name="video_player_4x3">4:3</string>
+    <string name="video_player_original">居中</string>
+
+</resources>
