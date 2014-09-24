@@ -24,7 +24,7 @@
             android:hint="172.16.32.180" />
 
         <Button
-            android:id="@+id/con"
+            android:id="@+id/btn_CON"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="0dp"
@@ -33,13 +33,45 @@
             android:text= "连接" />
     </LinearLayout>
 
-    <SurfaceView
-        android:id="@+id/surfaceView1"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_marginTop="50dp" />
+    <RelativeLayout 
+        android:id="@+id/surfaceView1_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+	    <SurfaceView
+	        android:id="@+id/surfaceView1"
+	        android:layout_width="fill_parent"
+	        android:layout_height="fill_parent"
+	        android:layout_alignParentLeft="true"
+	        android:layout_alignParentTop="true"
+	        android:layout_marginTop="50dp" />
+	    
+	    <LinearLayout 
+	        android:id="@+id/right_btn_layout"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_toRightOf="@id/surfaceView1"
+	        android:layout_centerVertical="true"
+	        android:layout_marginLeft="20dp"
+	        android:orientation="vertical">
+	        <Button 
+	            android:id="@+id/btn_BACK"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:text="返回"/>
+	        <Button 
+	            android:id="@+id/btn_HOME"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="200dp"
+	            android:text="主页"/>
+	         <Button 
+	            android:id="@+id/btn_MENU"
+	            android:layout_width="150dp"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="300dp"
+	            android:text="菜单"/>
+	    </LinearLayout>
+    </RelativeLayout>
 <!---
     <SurfaceView
         android:id="@+id/surfaceView2"
